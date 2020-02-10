@@ -41,9 +41,6 @@ class TestTriangles(unittest.TestCase):
     def testNotATriangleB(self):
         self.assertEqual(classifyTriangle(20, 50, 20), 'NotATriangle')
 
-    def testNotATriangleC(self):
-        self.assertEqual(classifyTriangle(233, 233, 499), 'NotATriangle')
-
 
 if __name__ == '__main__':
     print('Running unit tests')
